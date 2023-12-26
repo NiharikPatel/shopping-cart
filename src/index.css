@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f1c0ff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* App.css */
+
+.header-container {
+  background: linear-gradient(to bottom, #c505fa, #de6dfd);
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 20px;
+  text-shadow: black 2px;
+
+}
+.card-body {
+  font-size: 1em;
+  line-height: 0.5;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card{
+  box-shadow: #c505fa 1px 2px;
+}
+.btn:hover{
+  transform: scale(1.05);
+}
+Link{
+  transform: scale(1.1);
+}
+.star{
+  color: gold;
+}
+.home{
+  position: relative;
+
+
+}
+.product{
+position: absolute;
+
+
+}
+.overlay{
+  position: absolute;
+  z-index: 1;
+
+}
+.added-message {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.custom-card-body{
+  line-height: 1;
+  background: linear-gradient(to bottom, #f4f4f4, #e5bdf1);
+}
+.checkout{
+  background-color: azure;
+  margin-top: 20px;
 }
